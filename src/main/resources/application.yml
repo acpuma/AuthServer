@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/auth?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: techservice
+    password: techservice
+#    data: classpath*:import.sql
+  jpa:
+#    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+server:
+    port: 10000
+
+diski:
+  resourceId: serdarDiski
+  clientId: 6mxWfr2IuJ6NVIBDKCh4cIhSjZj6npkiKnhZgjSD
+  clientSecret: jgWlFoAbmo
+tekser:
+  resourceId: tekser
+  clientId: 8ddsa565dsa87787IuJ6NVIBDKCh4cBdslds65ds
+  clientSecret: h4cIhSjZjs
